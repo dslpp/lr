@@ -1,14 +1,13 @@
 .db
 {
  font-family: "Segoe Print";
+ src: url(fonts/segoepr.ttf);
  font-size: xx-large;
- padding-left: 35%;
- padding-top: 2%;
- padding-right: 25%;
-padding-bottom: 8%;
+
+
 }
 .img
-{
-    padding-left: 38%;
-    padding-right: 38%;
+{   padding-left: 35%;
+    padding-right: 38%; 
+    
 }
