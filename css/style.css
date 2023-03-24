@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Segoe Print";
+    src: url(fonts/segoepr.ttf)  format('truetype');
+} 
 .db{
  font-family: "Segoe Print";
  font-size: xx-large;
@@ -9,7 +13,3 @@
     padding-right: 38%; 
     
 }
-@font-face {
-    font-family: "Segoe Print";
-    src: url(fonts/segoepr.ttf);
-} 
