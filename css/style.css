@@ -1,7 +1,7 @@
-.db
-{
+@import url(fonts/segoepr.ttf);
+.db{
  font-family: "Segoe Print";
- src: url(fonts/segoepr.ttf);
+
  font-size: xx-large;
 
 
