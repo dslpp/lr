@@ -1,15 +1,36 @@
 @font-face {
     font-family: "Segoe Print";
-    src: url(../fonts/segoepr.ttf) format('truetype');
+    src: url(../fonts/segoepr.ttf)  format('truetype');
 } 
 .db{
  font-family: "Segoe Print";
  font-size: xx-large;
- padding-left: 35%;
-
+ padding-left: 32%;
 }
 .img
-{   padding-left: 35%;
-    padding-right: 38%; 
-    
+{ padding-left: 34%;
+} 
+.text
+{
+    font-family: "Segoe Print";
+    font-size: 12pt;
+    padding-left: 2%; 
+    padding-right: 2%; 
+}
+.div{
+    font-family: "Segoe Print";
+    font-size: x-large;
+    padding-left: 20%;
+   }
+.pol
+{
+    font-family: "Segoe Print";
+    font-size: 14pt;
+   padding-top: 5%;
+   padding-left: 10%;
+}
+.img_pol
+{
+    padding-left: 8%;  
+    padding-top: 2%;
 }
