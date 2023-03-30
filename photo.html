@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Визитка</title>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="Скробко Дарья" />
+    <meta name="Keywords" content="Сайт визитка обо мне " />
+    <meta name="description" content="Лабораторна работа по дисциплине ПССИП" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <style>
+        @font-face 
+        {
+            font-family: "Segoe Print";
+            src: url(../fonts/segoepr.ttf)  format('truetype');
+        } 
+        .hr 
+        {
+            padding-left: 16%;
+            padding-right: 16%;
+        }
+        .cl 
+        {
+            margin: 0;
+            padding-left: 16%;
+        }
+        .db
+        {
+            font-family: "Segoe Print";
+            font-size: 120%;
+        }
+        .cl li
+        {
+            display: inline; 
+            padding: 10%;
+        }
+        a
+        {
+            color: #000000 !important;
+            text-decoration: none;
+          
+        }
+        a:hover {color: rgba(248, 32, 32, 0.364)!important;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="db">
+        <ul class="cl">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="photo.html">Предпочтения</a></li>
+          <li><a href="photo.html">Резюме</a></li>
+        </ul>
+        <hr>
+      </div>
+    </header>
+    <main>
+      <div>
+        <p align ="center" style= " font-size:18pt; font-family: Segoe Print">Любимые смешнявки</p>
+        <div>
+            <img src="img/look.jpg" alt="Смотрите" >
+            <img src="img/banana.jpg"  width="500" height="340" alt="Украл красные пиксели">
+            
+        </div>
+        <hr>
+      </div>
+      <div>
+        <p align ="center" style= " font-size:18pt; font-family: Segoe Print; ">Видео с котиком</p>
+        <div align="center">
+            <video src="vid/Maow.mp4" controls="controls" width="720" height="360" preload="auto"></video >
+        </div>
+        <hr>
+      </div>
+      <div>
+        <p align ="center" style= " font-size:18pt; font-family: Segoe Print"> Аудио</p>
+        <div align="center">
+            <audio src="music/Life Could Be A Dream.mp3"controls="controls" loop="loop" preload="auto"></audio>
+        </div> 
+      </div>
+    </main>
+  </body>
+</html>
